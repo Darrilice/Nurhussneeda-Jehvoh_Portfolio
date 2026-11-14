@@ -9,6 +9,7 @@ The three original notebooks, their saved outputs and the original PDFs document
 ## Dataset and workflow
 
 Manually collected real and fake photographs are split by brand and `train/`, `val/`, `test/` under `dataset/`. Dior has **316/89/47**, Versace **352/44/44**, and Jo Malone **280/80/40** train/validation/test images. Dior's training `real` folder uses lowercase; the newer script handles case differences.
+#### Dataset Path (Have to extract files) : https://github.com/Darrilice/Nurhussneeda-Jehvoh_Portfolio/releases/tag/dataset-Perfume_Authenticity_CNN-v.1.0
 
 ## End-to-end workflow
 
