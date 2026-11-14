@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block content %}
+<!DOCTYPE html>
+    <head>
+        {% load static %}
+            <title>internship</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+            <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+            <script src="{% static 'js/bootstrap.js' %}"></script>
+    
+    <style>
+        body, html {
+            height: 100%;
+            font-family: "Inconsolata", sans-serif;
+        }
+
+        .menu {
+            display: none;
+        }
+
+    </style>
+    </head>
+
+<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">About Us</span></h5>
+&nbsp;
+
+<h3>FirstName5 LastName5</h3>
+<h5>Student Id : 630000005</h5>
+&nbsp;
+
+<h3>FirstName1 LastName1</h3>
+<h5>Student Id : 630000001</h5>
+&nbsp;
+
+<h3>FirstName2 LastName2</h3>
+<h5>Student Id : 630000002</h5>
+&nbsp;
+
+<h3>FirstName3 LastName3</h3>
+<h5>Student Id : 630000003</h5>
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+{% endblock  %}

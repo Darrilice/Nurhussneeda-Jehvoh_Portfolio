@@ -1,0 +1,4 @@
+brand,source_notebook,test_images,saved_test_accuracy
+Dior,CNN_Augmentation_Dior.ipynb,47,0.4680851101875305
+Versace,CNN_Augmentation_Versace.ipynb,44,0.7954545617103577
+Jo Malone,CNN_Augment_Jomalone.ipynb,40,0.824999988079071
