@@ -10,6 +10,7 @@
 
 The image folders contain 50 classes. Saved notebook output reports **7,183 training**, **250 validation** and **250 test** images. The baseline notebook loads 224 × 224 images, rescales them, trains a multiclass CNN and evaluates the test split; the second notebook adds image augmentation.
 
+Dataset Path (Have to extract files) : https://github.com/Darrilice/Nurhussneeda-Jehvoh_Portfolio/releases/tag/dataset-Moth_Classification_Augmentation_v.1.0
 ## End-to-end workflow
 
 Load labelled moth images → split train/validation/test → preprocess and train a baseline CNN → add augmentation in a comparison run → evaluate saved test outputs. Original E: drive paths require updating before a rerun.
