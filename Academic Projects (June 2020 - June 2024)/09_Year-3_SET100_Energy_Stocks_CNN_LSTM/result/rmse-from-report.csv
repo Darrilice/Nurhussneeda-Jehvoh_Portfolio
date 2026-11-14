@@ -1,0 +1,4 @@
+company,lstm_rmse,cnn_rmse
+PTT,1.6940,0.7330
+PTTEP,11.3197,3.4429
+BCP,4.6215,0.0192
