@@ -1,0 +1,1 @@
+The original result is presented in `../report/Covid-19.pdf`, which is the primary reference for this project. The complete R sampling and Mann–Whitney test files were not recovered. A reliable test statistic or p-value could not be transcribed from the available report text.
