@@ -1,0 +1,22 @@
+{
+    "eng":{
+    "^(o|th)":"Other",
+    "^b":"Bachelor",
+    "^(di[a-z]+a$)":"Diploma",
+    "^(do[a-z]+r$|dr)":"Doctor",
+    "^h":"High_school",
+    "^(jr|ju)":"Jr_high_school",
+    "^m":"Master",
+    "^p":"Primary"
+   },
+    "tha":{
+    "^(อื|[ก-๛]+ๆ$)+":"Other",
+    "^(ต|ตี|ตรี|[ก-๛]+ตี$|[ก-๛]+ตรี$|[ก-๛]+ตร$)+":"Bachelor",
+    "^(อนุ|[ก-๛]+อนุ$)+":"Diploma",
+    "^(อ|ด|เอก|[ก-๛]+ก$)+":"Doctor",
+    "ย$":"High_school",
+    "น$":"Jr_high_school",
+    "^(ท|โท|[ก-๛]+ธ$|[ก-๛]+ท$)+":"Master",
+    "^(ป|[ก-๛]+า$|ม$)+":"Primary"
+    }
+}
