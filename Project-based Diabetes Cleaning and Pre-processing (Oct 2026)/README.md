@@ -1,6 +1,4 @@
-# Diabetes Data Profiling, Cleaning and Preprocessing
-
-**Project-based work · October 2026**
+# Diabetes Data Profiling, Cleaning and Preprocessing (October 2026) - Project-based work
 
 ## Purpose
 
