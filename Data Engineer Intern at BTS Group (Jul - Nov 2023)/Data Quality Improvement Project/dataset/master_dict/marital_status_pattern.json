@@ -1,0 +1,15 @@
+{
+    "eng":{
+   "^s":"Single",
+   "^m":"Married",
+   "^w":"Widowed",
+   "^(c|15)":"Children_under_15" 
+   },
+    "tha":{
+        "^โ":"Single",
+        "^(ส|แต่ง)+":"Married",
+        "^(ห|ม่าย)+":"Widowed",
+        "^(เ|15|อายุต่ำกว่า\\s?15)+":"Children_under_15"
+    }
+}
+

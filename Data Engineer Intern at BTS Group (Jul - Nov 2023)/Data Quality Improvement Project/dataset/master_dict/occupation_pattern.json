@@ -1,0 +1,66 @@
+{
+    "eng":{
+        "business owner":{
+            "(no.*com)":"Business owner - No Company Registered",
+            "(.*com)":"Business Owner - Company Registered",
+            "(more.*2.*y|over.*1.*y|>.*1.*y)":"Business owner with over 1 year of registration",
+            "(more.*2.*y|over.*2.*y|>.*2.*y)":"Business owner, register over 2 years",
+            "(less.*[1,2,3].*y|<.*[1,2,3].*y)":"Business owner, registered less than 3 years",
+            "(more.*3.*y|>.*3.*y|over.*?3.*y)":"Business owner, registered more than 3 years"},
+
+        "employee":{
+            "(less.*1.*y|<.*?1.*y)":"Employee, experience less than 1 year",
+            "(more.*1.*y|>.*1.*y|over.*1.*y)":"Employee, experience more than 1 year"},
+
+        "officer":{
+            "(more.*1.*m|>.*1.*m|over.*1.*m)":"Officer with over 1 month of employment",
+            "(more.*1.*y|>.*1.*y|over.*1.*y)":"Officer with over 1 year of employment",
+            "(more.*4.*m|>.*4.*m|over.*4.*m)":"Officer with over 4 months of employment",
+            "^o":"officer"},
+
+        "other":{
+            "^f":"Freelancer",
+            "^r":"Retired",
+            "go.*com":"Government-owned company",
+            "^g":"Government",
+            "^(h|w)":"Housewife",
+            "^ot":"Other",
+            "^ow":"Owner",
+            "^(p|se)":"Public servent",
+            "^(sta|en)":"State enterprise",
+            "^(stu|std)":"Student",
+            "^(un.*ee$|un.*ed$|no.*k$)":"Unemployed"}
+   },
+    "tha":{
+        "business owner":{
+            "ไม่.*จด":"Business owner - No Company Registered",
+            "จด":"Business Owner - Company Registered",
+            "(มาก.*1.*ป|>.*1.*ป|กว่า.*1.*ป)+":"Business owner with over 1 year of registration",
+            "(มาก.*2.*ป|>.*2.*ป|กว่า.*2.*ป)+":"Business owner, register over 2 years",
+            "(น้อย.*[1,2,3].*ป|<.*[1,2,3].*ป)+":"Business owner, registered less than 3 years",
+            "(มาก.*3.*ป|>.*3.*ป|กว่า.*3.*ป)+":"Business owner, registered more than 3 years"},
+
+        "employee":{
+            "(น้อย.*1.*ป|<.*1.*ป)+":"Employee, experience less than 1 year",
+            "(มาก.*1.*ป|>.*1.*ป)+":"Employee, experience more than 1 year"},
+
+        "officer":{
+            "(มาก.*1.*ด|>.*1.*ด)+":"Officer with over 1 month of employment",
+            "(มาก.*1.*ป|>.*1.*ป)+":"Officer with over 1 year of employment",
+            "(มาก.*4.*ด|>.*4.*ด)+":"Officer with over 4 months of employment",
+            "^(ล|พ)":"officer"},
+
+        "other":{
+            "^(ฟ|อิ)":"Freelancer",
+            "^เก":"Retired",
+            "^บ":"Government-owned company",
+            "รา.*":"Government",
+            "^แ":"Housewife",
+            "^(อื|[ก-๛]+ๆ$)+":"Other",
+            "^(เจ)":"Owner",
+            "^(ข|ค)":"Public servent",
+            "^ร":"State enterprise",
+            "^(น|นร|เรียน)+":"Student",
+            "^(ไม่.*งาน|ว่าง)+":"Unemployed"}
+    }
+}
