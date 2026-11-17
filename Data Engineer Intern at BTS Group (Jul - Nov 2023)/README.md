@@ -1,6 +1,4 @@
-# Data Engineer Intern at BTS Group
-
-**July to November 2023 · Cooperative education**
+# Data Engineer Intern at BTS Group (July to November 2023) - Cooperative education
 
 ## Project objective
 
@@ -8,12 +6,16 @@ BTS Group collected self-entered demographic data in multiple formats. Differenc
 
 ## How I did it
 
-1. **Profiled the inputs.** Reviewed representative values and grouped recurring issues such as spelling variants, incomplete entries, mixed income formats and inconsistent date conventions.
-2. **Defined the standard for each field.** Used regular expressions and dictionaries to normalize text, fuzzy matching for nationality variants, and date parsing to convert Buddhist Era dates where applicable. For income, separated point amounts, ranges, and upper or lower thresholds into numeric outputs.
-3. **Built and tested Python functions.** Compared representative inputs with expected outputs. The status column distinguished values that could not be standardized, values already in standard format, values successfully standardized, and missing values.
-4. **Processed and evaluated the data in the cloud.** Adapted the workflow to PySpark on Amazon EMR with data stored in Amazon S3. Compared the share of known values in standard format and checked how the number of distinct formats or values changed across seven evaluated fields.
+1. **Profiled the inputs.**
+     - Reviewed representative values and grouped recurring issues such as spelling variants, incomplete entries, mixed income formats and inconsistent date conventions.
+2. **Defined the standard for each field.**
+     - Used regular expressions and dictionaries to normalize text, fuzzy matching for nationality variants, and date parsing to convert Buddhist Era dates where applicable. For income, separated point amounts, ranges, and upper or lower thresholds into numeric outputs.
+3. **Built and tested Python functions on a sample dataset.**
+    - Used representative records to test each field’s rules and compare the outputs with expected results. The status column identified values that were already in standard format, successfully standardized, unhandled, or missing.
+4. **Processed and evaluated the actual dataset with PySpark.**
+    - Adapted the Python rules for distributed processing on Amazon EMR, using data stored in Amazon S3 and compared the share of known values in standard format before and after processing and checked how the number of distinct formats or values changed across seven fields.
 
-## Results
+## Results (Actual Dataset)
 
 | Field | Standardized share among known values | What changed |
 | --- | --- | --- |
@@ -29,5 +31,5 @@ The project delivered field-specific Python rules, a PySpark notebook, lookup di
 ## Project materials
 
 - [Detailed project README and notebook index](Data%20Quality%20Improvement%20Project/README.md)
-- [Cooperative education report (PDF), Table 12 and Figure 9](Data%20Quality%20Improvement%20Project/report/Data%20quality%20improvement%20and%20examine%20the%20efficiency%20of%20demographic%20data%20for%20processing%20on%20cloud%20computing.pdf)
+- [Cooperative education report (PDF)](Data%20Quality%20Improvement%20Project/report/Data%20quality%20improvement%20and%20examine%20the%20efficiency%20of%20demographic%20data%20for%20processing%20on%20cloud%20computing.pdf)
 - [Project presentation (PowerPoint)](Data%20Quality%20Improvement%20Project/report/presentation.pptx)
